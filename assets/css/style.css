@@ -288,7 +288,7 @@ footer{
 
 }
 
-@media  screen and (max width: 950px) {
+@media  screen and (max-width: 950px) {
     #menu{
         clear: left;
         float: left;
@@ -314,5 +314,14 @@ footer{
     .left-about-heading p, .right-about-heading p{
         text-align: center;
         padding: 0 20px;
+    }
+    #photos{
+        column-count: 3;
+    }
+}
+
+@media  screen and (max-width: 950px){
+    #photos{
+        column-count: 2;
     }
 }
